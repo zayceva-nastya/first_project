@@ -81,6 +81,9 @@
       $a=3;
       echo "\$a=$a";
       ?>
+    <?php
+    echo 'Merry Christmas'
+        ?>
 
 </body>
 </html>
