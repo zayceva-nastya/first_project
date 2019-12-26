@@ -82,9 +82,11 @@
       echo "\$a=$a";
       echo '<br>';
       ?>
-    <?php
-    echo 'Merry Christmas!';
-        ?>
+     <?php
+    $a=3;
+    echo "\$a=$a";
+    echo '<br>';
+     ?>
 
 </body>
 </html>
