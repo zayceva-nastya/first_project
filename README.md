@@ -14,7 +14,7 @@ Today is a nice day.
 **выделит**
     'Hello world'
     block
- ~~pfxthrytn~~
+     ~~pfxthrytn~~
     
  - список можно и так
  
