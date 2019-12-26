@@ -2,14 +2,9 @@
 Today is a nice day.
 
 
-* gghj
-*  ghj
-*kurs*
-**zirn**
 
-=======
-* первый
-* second
+*список
+*список
 *курсив*
 **выделит**
     'Hello world'
