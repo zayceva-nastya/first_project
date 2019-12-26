@@ -6,11 +6,11 @@ Today is a nice day.
 **выделит**
 (inline) 'Hello world'
     block
-  ~~pfxthrytn~~
+ ~~pfxthrytn~~
     
- -список можно и так
+ - список можно и так
  
-+можно и так
++ можно и так
 
 №1 нум список
 №2нум список
