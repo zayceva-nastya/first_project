@@ -80,7 +80,11 @@
       <?php
       $a=3;
       echo "\$a=$a";
+      echo '<br>';
       ?>
+    <?php
+    echo 'Merry Christmas!';
+        ?>
 
 </body>
 </html>
