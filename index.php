@@ -187,7 +187,7 @@
     if($a==$b);
     echo "a aquals 5";
     echo "...";
-    elseif ($a==6)
+    elseif ($a==6);
     echo "a aquals 5";
     echo "!!!";
 else: 
