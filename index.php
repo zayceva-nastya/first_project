@@ -123,6 +123,18 @@
     echo print_r($arr);
     echo "</pre>";
     ?>
+     <?php
+    $arr = array(5 => 43, 32, 56, "b" => 12);
+    echo "<pre>";
+    echo $arr[5];
+    echo $arr[6];
+    echo $arr[7];
+    echo $arr["b"];
+
+    echo '<br>';
+    echo print_r($arr);
+    echo "</pre>";
+    ?>
     <?php
     echo "<pre>";
     $arr = array(5 => 1, 12 => 2);
