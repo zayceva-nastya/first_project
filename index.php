@@ -105,6 +105,12 @@
     echo '<br>';
     ?>
     <?php
+    $arr = array("foo" => "bar", 12 => true);
+    echo $arr["foo"];
+    echo $arr[12];
+    echo '<br>';
+    ?>
+    <?php
     $arr = array("somearray" => array(6 => 5, 13 => 9, "a" => 42));
     echo $arr["somearray"][6];
     echo $arr["somearray"][13];
