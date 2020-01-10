@@ -105,6 +105,12 @@
     echo '<br>';
     ?>
     <?php
+    $arr = array("foo" => "bar", 12 => true);
+    echo $arr["foo"];
+    echo $arr[12];
+    echo '<br>';
+    ?>
+    <?php
     $arr = array("somearray" => array(6 => 5, 13 => 9, "a" => 42));
     echo $arr["somearray"][6];
     echo $arr["somearray"][13];
@@ -180,6 +186,7 @@
         echo "a is bigger than b"; // если нет, то иначе
     } elseif ($a === $b) {
         echo "a is equal b ";
+<<<<<<< HEAD
     } else "a is smaller than b";
     echo '<br>';
     ?>
@@ -352,6 +359,21 @@
     ?>
 
 
+=======
+    }else "a is smaller than b";
+    ?>
+    <?php 
+    if($a==$b);
+    echo "a aquals 5";
+    echo "...";
+    elseif ($a==6);
+    echo "a aquals 5";
+    echo "!!!";
+else: 
+    echo "a is neither 5 nor 6";
+endif;
+?>
+>>>>>>> eb47b93697e3a6505ae3a2e783eb7b29ba37ec12
 </body>
 
 </html>
