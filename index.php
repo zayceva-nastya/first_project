@@ -178,27 +178,200 @@
     if ($a > $b) {
         echo "a больше,чем b"; // если нужно больше,чем одно
         $b = $a;
-
     }
-    echo '<br>';
+
     ?>
-     <?php
-     $a=3;
-     $b=8;
+    <?php
+    $a = 3;
+    $b = 8;
     if ($a > $b) {
         echo "a is greater than b"; // если нет, то иначе
-    }else{
+    } else {
         echo "a is NOT greater than b ";
     }
     echo '<br>'
     ?>
-     <?php
-     $a=1;
-     $b=1;
+    <?php
+    $a = 1;
+    $b = 1;
     if ($a > $b) {
         echo "a is bigger than b"; // если нет, то иначе
-    }elseif ($a===$b){
+    } elseif ($a === $b) {
         echo "a is equal b ";
+<<<<<<< HEAD
+    } else "a is smaller than b";
+    echo '<br>';
+    ?>
+    <?php
+    $a = 5;
+    if ($a == 5) : ?>
+        A is equal to 5
+    <?php endif; ?>
+    <?php if ($a == 5) { ?>
+        A is equal to 5
+    <?php }; ?>
+
+    <?php
+
+    echo '<br>';
+    for ($i = 1; $i <= 10; $i++) {
+        echo $i . "<br>";
+    }
+
+    ?>
+    <?php
+    echo '<br>';
+    for ($i = 1;; $i++) {
+        if ($i > 10) {
+            break;
+        }
+        echo $i . "<br>";
+    }
+    ?>
+    <?php
+    $i = 1;
+    for (;;) {
+        if ($i > 10) {
+            break;
+        }
+        echo $i;
+        $i++;
+    }
+    ?>
+    <?php
+    echo '<br>';
+    $s = 0;
+    for ($i = 1; $i <= 10; $i++) {
+        $s = $s + $i;
+    }
+    echo $s;
+    ?>
+    <?php
+    echo '<br>';
+    $arr = array("one", "two", "three");
+    foreach ($arr as $value) {
+        echo "Value: $value";
+    }
+    ?>
+    <?php
+    echo '<br>';
+    $arr = array("one", "two", "three");
+    foreach ($arr as $key => $value) {
+        echo "Key: $key; Value: $value<br />\n";
+    }
+    ?>
+    <?php
+    echo '<br>';
+    $s = 0;
+    $arr = array(1, 2, 3, 4, 5);
+    foreach ($arr as $value) {
+        $s = $s + $value;
+    }
+    echo $s;
+    ?>
+    <?php
+    echo '<br>';
+    $i = 1;
+    while ($i <= 10) {
+        echo $i++;
+    }
+    ?>
+    <?php
+    echo '<br>';
+    $i = 1;
+    while ($i <= 10) : //вместо фигурных скобок : i endwhile
+        echo $i;
+        $i++;
+    endwhile;
+    ?>
+
+    <?php
+    echo '<br>';
+    $i = 1;
+    $s = 0;
+    while ($i <= 10) {
+        $s = $s + $i;
+        $i++;
+    }
+    echo $s
+    ?>
+    <?php
+    echo '<br>';
+    $i = 0;
+    do {
+        echo $i;
+    } while ($i > 0);
+    ?>
+    <?php
+    echo '<br>';
+    $i = 0;
+    $s = 0;
+    do {
+        $s = $s + $i;
+        $i++;
+    } while ($i <= 10);
+    echo $s;
+    ?>
+    <?php
+    echo '<br>';
+    $i = 3;
+    $s = 1;
+    while ($i <= 12) {
+        $s = $s * ($i * $i);
+        $i++;
+    }
+    echo $s
+    ?>
+    <?php
+    echo '<br>';
+    $i = 5;
+    switch ($i) {
+        case 4:
+            echo 4;
+            break;
+        case 5:
+            echo 5;
+            break;
+
+        default:
+            echo "\$i=$i";
+            break;
+    }
+    ?>
+    <?php
+    echo '<br>';
+    $i = 7;
+    switch ($i) {
+        case 1:
+            echo "один";
+            break;
+        case 2:
+            echo "два";
+            break;
+        case 3:
+            echo "три";
+            break;
+        case 4:
+            echo "четыре";
+            break;
+        case 5:
+            echo "пять";
+            break;
+        case 6:
+            echo "шесть";
+            break;
+        case 7:
+            echo "семь";
+            break;
+        
+        default:
+            echo "нет такого числа";
+            break;
+    }
+    ?>
+
+
+=======
     }else "a is smaller than b";
     ?>
     <?php 
@@ -212,6 +385,7 @@ else:
     echo "a is neither 5 nor 6";
 endif;
 ?>
+>>>>>>> eb47b93697e3a6505ae3a2e783eb7b29ba37ec12
 </body>
 
 </html>
